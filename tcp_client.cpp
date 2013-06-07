@@ -12,10 +12,6 @@
 #include <iostream>
 #include <string>
 
-// --------
-#include "mem_manager.h"    // must be the final #include header
-// --------
-
 const char* const PORT = "7000"; // the port client will be connecting to
 const int MAXDATASIZE = 1024 * 16; // max number of bytes we can get at once
 const bool READ_SLOW = true;
